@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://city1.com/sitemap.xml
+
+# Block common non-content paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /favicon.ico
+Disallow: /*.json$
+
+# Allow specific important directories
+Allow: /src/
+Allow: /assest/
+
+# Crawl delay (optional, adjust based on server capacity)
+Crawl-delay: 1
